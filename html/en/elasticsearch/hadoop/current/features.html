@@ -46,7 +46,7 @@ elasticsearch-hadoop is focused on performance. From pull-based parsing, to bulk
 </dd><dt><span class="term">
 Adaptive I/O
 </span></dt><dd>
-elasticsearch-hadoop detects transport errors and retries automatically. If the Elasticsearch node died, re-routes the request to the available nodes (which are discovered automatically). Additionally, if Elasticsearch is overloaded, elasticsearch-hadoop detects the data rejected and resents it, until it is either processed or the user-defined policy applies.
+elasticsearch-hadoop detects transport errors and retries automatically. If the Elasticsearch node died, re-routes the request to the available nodes (which are discovered automatically). Additionally, if Elasticsearch is overloaded, elasticsearch-hadoop detects the data rejected and resends it, until it is either processed or the user-defined policy applies.
 </dd><dt><span class="term">
 Map/Reduce API support
 </span></dt><dd>
